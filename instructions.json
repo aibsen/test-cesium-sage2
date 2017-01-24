@@ -1,0 +1,21 @@
+{
+	"main_script": "testcesium.js",
+	"icon": "testcesium.png",
+	"width": 800,
+	"height": 600,
+	"resize": "free",
+	"animation": false,
+	"dependencies": [
+		"node_modules/cesium/Build/Cesium/Cesium.js",
+		"node_modules/cesium/Build/Cesium/Widgets/widgets.css"
+	],
+	"load": {
+		"value": 4
+	},
+	"title": "testcesium",
+	"version": "1.0.0",
+	"description": "SAGE2 application testcesium2",
+	"keywords": [ "sage2", "testcesium" ],
+	"author": "amanda ibsen <amanda.ibsen@inria.cl>",
+	"license": "SAGE2-Software-License"
+}
